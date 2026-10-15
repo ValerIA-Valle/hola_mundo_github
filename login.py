@@ -8,4 +8,6 @@ class Login(ttk.Frame):
         self.ven = ventana
         self.ven.geometry("350x450")
         self.ven.title("Sistema Login")
+        self.ven.config(bg = "#00ddff")
+        self.ven.resizable(False, False)
         
